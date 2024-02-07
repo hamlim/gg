@@ -1,5 +1,12 @@
 # gg
 
+## Usage:
+
+- Install the package globally or locally (or use something like `bunx`, `yarn dlx`, `npx` etc)
+- Run `gg new` to start a new branch locally
+
+## Contributing
+
 To install dependencies:
 
 ```bash
