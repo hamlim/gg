@@ -1,0 +1,20 @@
+{
+  "name": "gg",
+  "module": "index.ts",
+  "bin": {
+    "gg": "dist/index"
+  },
+  "type": "module",
+  "scripts": {
+    "build": "bun build ./index.ts --outfile=./dist/index --minify --compile"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "random-words": "^2.0.1"
+  }
+}
