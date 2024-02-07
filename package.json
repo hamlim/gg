@@ -1,5 +1,5 @@
 {
-  "name": "gg",
+  "name": "@matthamlin/gg",
   "module": "index.ts",
   "bin": {
     "gg": "dist/index"
