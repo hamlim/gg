@@ -1,8 +1,7 @@
 #!/usr/bin/env bun
 
-// Import required modules
 import { execSync } from "child_process";
-import { generate } from "random-words"; // You might need to install this package
+import { generate } from "random-words";
 
 // Function to generate a random branch name
 function generateBranchName() {

@@ -1,12 +1,15 @@
 {
   "name": "@matthamlin/gg",
+  "version": "0.0.1",
   "module": "index.ts",
   "bin": {
     "gg": "dist/index"
   },
   "type": "module",
   "scripts": {
-    "build": "bun build ./index.ts --outfile=./dist/index --minify --compile"
+    "build": "bun build ./index.ts --outfile=./dist/index --minify --compile",
+    "prepub": "bun run build",
+    "pub": "npm publish --access public"
   },
   "devDependencies": {
     "@types/bun": "latest"
