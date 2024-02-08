@@ -2,8 +2,15 @@
 
 ## Usage:
 
-- Install the package globally or locally (or use something like `bunx`, `yarn dlx`, `npx` etc)
-- Run `gg new` to start a new branch locally
+Install the package globally or locally (or use something like `bunx`, `yarn dlx`, `npx` etc)
+
+### Commands:
+
+- `new`
+  - Create new branch
+- `update`
+  - Update the current branch (first pulling the branch itself then pulling main without a rebase)
+
 
 ## Contributing
 
